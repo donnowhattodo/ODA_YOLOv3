@@ -93,8 +93,8 @@ def test():
 
     dataset = YOLODataset(
         "PASCAL_VOC/2examples.csv",
-        "PASCAL_VOC/images/images/",
-        "PASCAL_VOC/labels/labels_new/",
+        "PASCAL_VOC/images/",
+        "PASCAL_VOC/labels/",
         S=[13, 26, 52],
         anchors=anchors,
         transform=transform,
