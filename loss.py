@@ -64,3 +64,8 @@ class YoloLoss(nn.Module):
                 + self.lambda_noobj * no_object_loss
                 + self.lambda_class * class_loss
         )
+    
+'''
+if __name__ == "__main__":
+    forward()
+'''
